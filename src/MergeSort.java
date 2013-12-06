@@ -1,5 +1,5 @@
 /**
- * 归并排序，分治思想divide and conquer。 divide：把原数组拆成两半；conquer：对这两半分别排序；merge：把两半合并。
+ * P19，归并排序，分治思想divide and conquer。 divide：把原数组拆成两半；conquer：对这两半分别排序；merge：把两半合并。
  * 算法稳定，最好、平均、最坏时间复杂度都是O(N*logN)，空间复杂度O(N)。 归并排序是常用排序算法中需要比较次数最少的。
  * 在JAVA中，对象进行比较操作昂贵，而数组元素移动很快（因为移动的是引用），适合归并排序。
  * 因此对象数组或者集合的Collections.sort()和Arrays.sort()方法是一种归并排序的改进版本；
