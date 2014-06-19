@@ -27,7 +27,7 @@ public class CountSort {
 	 */
 	public static void main(String[] args) {
 		int[] test = new int[] { 2, 5, 3, 0, 2, 3, 0, 3 };
-		int[] result = CountSort.Sort(test, 6);
+		int[] result = CountSort.Sort(test, 6);// 因为5是最大值，所以需要大小为6的数组计数
 		for (int i = 0; i < result.length; i++) {
 			System.out.println(result[i]);
 		}
